@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tech_Tag = (props) => {
+const TechTag = (props) => {
   const style = {
     border: '1px solid #4CFF00',
     padding: '5px 10px',
@@ -11,8 +11,8 @@ const Tech_Tag = (props) => {
     textAlign: 'center'
   }
 
-  return (<div key={props.key} style={style}>{props.children}</div>)
+  return (<div style={style}>{props.children}</div>)
   
 }
 
-export default Tech_Tag;
+export default TechTag;
