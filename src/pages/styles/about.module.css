@@ -1,0 +1,8 @@
+@media (min-width: 550px) {
+
+  .Description_Box {
+    border-left: 4px solid black;
+    padding-left: 80px;
+  }
+
+} 

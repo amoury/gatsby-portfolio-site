@@ -1,0 +1,57 @@
+/* .Description_Box {
+  
+} */
+
+.Section {
+  margin-top: 10vh;
+}
+
+.Section_Title {
+  text-align: center;
+}
+
+
+.Tech_Stack {
+  display: flex;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+}
+
+.Tech_Stack Tech_Tag {
+  margin: 0 20px;
+}
+
+.SubSection {
+  margin-top: 7vh;
+}
+
+@media (min-width: 550px) {
+  .Section {
+    text-align: left;
+  }
+  
+  .Section_Title {
+    text-align: left;
+  }
+
+  .Description_Box {
+    border-left: 4px solid black;
+    padding-left: 80px;
+  }
+
+
+  .Section_Title {
+    position: relative;
+  }
+
+  .Section_Title:before {
+    content: '';
+    position: absolute;
+    background: #000;
+    left: -102px;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    border-radius: 50%;
+  }
+}
